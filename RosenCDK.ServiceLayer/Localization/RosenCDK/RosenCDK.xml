@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="en">
+  <texts>
+    <text name="HomePage" value="Home page" />
+    <text name="About" value="About" />
+    <text name="WellcomeMessage" value="Welcome to RosenCDK!" />
+
+    <text name="UnknownError" value="Unknown errors happen some where"/>
+    <text name="Unauthorized_Request_NoUser" value ="Unauthorized request! Missing crediential"/>
+    <text name="Authorized_Request_AccessGranted" value="Access granted"/>
+    <text name="Wrong_UsernameOrPassword" value="Your username or password is not correct"/>
+    <text name="Valid_UserToken" value="Valid user authentication token"/>
+    <text name="Invalid_UserToken" value="Expired nor non-existed user authentication token"/>
+    <text name="NotAuthorized_ToExecuteAction" value="You are not authorized for this action"/>
+    <text name="Delete_UserTokenSuccess" value="Deleted token attached with username {0} successfully"/>
+    <text name="Delete_UserTokenFailed" value="Unable to delete token attached with username {0}"/>
+    
+    
+    <text name="Register_TraineeFailed_TraineeExisted" value="Can't register this trainee. This trainee already registered for the training"/>
+    <text name="Register_TraineeSuccess" value="Trainee was registered successfully!"/>
+    <text name="Register_Trainee_UpdateFail" value="Can't update trainee to database!"/>
+    <text name="Register_Trainee_UpdateTrainingFail" value="Can't update training to database!"/>
+    <text name="Register_TraineeFailed" value="Can't register this trainee. Some errors occured"/>
+    
+    <text name="CalculaterEndDateSuccess" value="Calculate the end date successfully"/>
+    <text name="CreateTraining_TodayFail" value="Couldn't create the Training, training must be in the future"/>
+    <text name="CreateTraining_DbFail" value="Couldn't create the Training due to database transaction"/>
+    <text name="CreateTraining_Success" value="The training has created successfully!"/>
+    <text name="CreateTraining_Fail" value="Couldn't create the training"/>
+    <text name="UpdateTraining_CancelOrCompleteFail" value="Couldn't update the Training. The Training already canceled or completed"/>
+    <text name="UpdateTraining_Fail" value="Couldn't find any training with given Id"/>
+
+    <text name="UpdateTraining_FailError" value="Couldn't update the Training. An error occured!"/>
+    <text name="UpdateTraining_StartEndDate error" value="You can not update completed training"/>
+    <text name="CancelTraining_Fail" value="No such training in db"/>
+    <text name="CancelTraining_Success" value="The Training has canceled successfully!"/>
+    <text name="UpdateTraining_Success" value="The Training has canceled successfully!"/>
+
+    <text name="CompleteTraining_Fail" value="No such training in db"/>
+    <text name="CompleteTraining_Success" value="The Training has coimpleted successfully!"/>
+    <text name="CreatTraining" value="Couldn't complete the Training. An error has occured!"/>
+
+  </texts>
+</localizationDictionary>

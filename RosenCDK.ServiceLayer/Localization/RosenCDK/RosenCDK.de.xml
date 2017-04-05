@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="de">
+  <texts>
+    <text name="HomePage" value="Home page" />
+    <text name="About" value="About" />
+    <text name="WellcomeMessage" value="Welcome to RosenCDK!" />
+   
+	
+	 <text name="NotAuthorized_ToExecuteAction" value="Sie haben keine Berechtigung für diese Aktion"/>
+    
+    
+
+    <text name="UnknownError" value="Unbekannte Fehler irgendwo aufgetreten"/>
+    <text name="Unauthorized_Request_NoUser" value ="Die Anfrage ist nicht autorisiert. Fehlende Anmeldeinformationen"/>
+    <text name="Authorized_Request_AccessGranted" value="Zugang wurde gewährt"/>
+    <text name="Wrong_UsernameOrPassword" value="Ihr Benutzername oder Passwort sind falsch"/>
+    <text name="Delete_UserTokenSuccess" value="Das mit username {0} verbundene Token wurde erfolgreich gelöscht"/>
+    <text name="Delete_UserTokenFailed" value="Kann das mit username {0} verbundene Token nicht löschen"/>
+    <text name="Valid_UserToken" value="Das Token des Benutzers ist gültig"/>
+    <text name="Invalid_UserToken" value="Das Token des Benutzers ist abgelaufen oder nicht vorhanden"/>
+    <text name="Register_TraineeFailed_TraineeExisted" value="Sie können diesen Auszubildenden nicht registrieren. Dieser Auszubildende hat sich bereits für die Ausbildung angemelde"/>
+    <text name="Register_TraineeSuccess" value="Der Auszubildende wurde erfolgreich registriert!"/>
+    <text name="Register_Trainee_UpdateFail" value="Kann den Auszubildenden nicht in die Datenbank aktualisieren!"/>
+    <text name="Register_Trainee_UpdateTrainingFail" value="Kann den Auszubildenden nicht in die Datenbank aktualisieren"/>
+    <text name="Register_TraineeFailed" value="Dieser Auszubildende kann nicht registriert werden. Einige Fehler sind aufgetreten"/>
+    <text name="CalculaterEndDateSuccess" value="Das Enddatum wurde erfolgreich berechnet"/>
+    <text name="CreateTraining_TodayFail" value="Konnte das Training nicht schaffen, das Training muss in der Zukunft passieren"/>
+    <text name="CreateTraining_DbFail" value="Das Training könnte aufgrund der Datenbank-Transaktion nicht erstellt werden"/>
+    <text name="CreateTraining_Success" value="Schaffung von Ausbildung ist erfolgreich"/>
+    <text name="CreateTraining_Fail" value="Kann das Training nicht schaffen"/> 
+    <text name="UpdateTraining_CancelOrCompleteFail" value="Das Training konnte nicht aktualisiert werden. Das Training wurde bereits abgebrochen oder abgeschlossen"/>
+    <text name="UpdateTraining_Fail" value="Es konnte kein Training mit bestimmten Identifier finden"/>
+    <text name="UpdateTraining_Success" value="Das Training hat erfolgreich aktualisiert!"/>
+
+    <text name="UpdateTraining_FailError" value="Das Training konnte nicht aktualisiert werden. Ein Fehler ist aufgetreten!"/>
+    <text name="UpdateTraining_StartEndDate error" value="Sie können dieses Training nicht aktualisieren, weil es beendet ist"/>
+    <text name="CancelTraining_Fail" value="Dieses Training existiert nicht in der Datenbank"/>
+    <text name="CancelTraining_Success" value="Das Training wurde erfolgreich abgebrochen"/>
+
+    <text name="CompleteTraining_Fail" value="Dieses Training existiert nicht in der Datenbank"/>
+    <text name="CompleteTraining_Success" value="Die Ausbildung wurde erfolgreich aktualisiert"/>
+    <text name="CreatTraining" value="Das Training konnte nicht abgeschlossen werden. Ein Fehler ist aufgetreten!"/>
+
+  </texts>
+</localizationDictionary>
